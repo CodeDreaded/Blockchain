@@ -30,17 +30,18 @@ contract DreadedCurrency {
 */
     
     // Governance Token
-    uint256 public tokenSHIT; /*<---State Variables (Notice their Scope is outside the function
-*                               below */
+    uint256 public tokenGrapes; /*<---State Variables (Notice their Scope is outside the function
+*                               below. */
 
     // Utility Token
-    uint256 public tokenGrapes = 1; // <-- Also a State Variable
+    uint256 public tokenSHIT = 1; // <-- Also a State Variable. Set Ratio to Grapes 1000:1
 
 
 
     // This funtion named "store", pass a value name "-_tokenGrapes".
     // Visibility[Action Button] is set to public [To be seen]
     // https://docs.soliditylang.org/en/v0.8.13/contracts.html#function-parameters-return-variables
+    // Syntax: function {name of Func}(VAR to Pass) Visibility { Code; }
     function store(uint256 _tokenGrapes) public { 
         tokenGrapes = _tokenGrapes;
     
