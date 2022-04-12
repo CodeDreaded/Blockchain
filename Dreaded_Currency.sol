@@ -41,9 +41,10 @@ contract DreadedCurrency {
     // This funtion named "store", pass a value name "-_tokenGrapes".
     // Visibility[Action Button] is set to public [To be seen]
     // https://docs.soliditylang.org/en/v0.8.13/contracts.html#function-parameters-return-variables
-    // Syntax: function {name of Func}(VAR to Pass) Visibility { Code; }
+    // Syntax: function [name of Func](VAR to Pass from input in the field bar) Visibility { Code; }
     function store(uint256 _tokenGrapes) public { 
         tokenGrapes = _tokenGrapes;
+        
     
     }
 }
