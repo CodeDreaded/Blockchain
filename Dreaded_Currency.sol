@@ -54,6 +54,7 @@ contract DreadedCurrency {
     //Array. A list or group of Info.
     //Syntax: ArrayType[] [Visibility] name;
     // Call Struct
+    // https://youtu.be/7Pm9HB-mJQg
     DreadedApe[] public Orangutans;
 
 
